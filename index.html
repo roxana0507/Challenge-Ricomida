@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricomida</title>
+
+    <!-- CSS Bootstrap 4.6.0-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Google Fonst-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <!-- My style-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand"> Ricomida</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-mi">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#my-jobs">Recetas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#my-jobs">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-me">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="text-dark text-right py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="assets/img/principal.jpg" alt="">
+                </div>
+                <div class="col">
+                    <h1 class="my-5 font-weight-bold"> Pizza al estilo Chicago con espinacas y champiñones</h1>
+                    <hr>
+                    <p class="my-5 text-right"> 110 minutos / 6 a 8 porciones</p>
+                    <button type="button" class="btn btn-light">Enviar por correo</button>
+                    <button type="button" class="btn btn-light">Añadir a favoritos</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Carusel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container inline-block">
+                    <div class="row">
+                        <div class="col">
+                            <img class="slider img-thumbnail img-responsive" src="assets/img/slider-1.png"
+                                alt="First slide">
+                        </div>
+                        <div class="col">
+                            <img class="slider img-thumbnail img-responsive" src="assets/img/slider-2.png"
+                                alt="First slide">
+                        </div>
+                        <div class="col">
+                            <img class="slider img-thumbnail img-responsive" src="assets/img/slider-3.png"
+                                alt="First slide">
+                        </div>
+                        <div class="col">
+                            <img class="slider img-thumbnail img-responsive" src="assets/img/slider-4.png"
+                                alt="First slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <img class="slider img-thumbnail img-responsive" src="assets/img/slider-5.png"
+                                alt="First slide">
+                        </div>
+                        <div class="col">
+                            <img class="slider img-thumbnail img-responsive" src="assets/img/slider-6.png"
+                                alt="First slide">
+                        </div>
+                        <div class="col">
+                            <img class="slider img-thumbnail img-responsive" src="assets/img/slider-7.png"
+                                alt="First slide">
+                        </div>
+                        <div class="col">
+                            <img class="slider img-thumbnail img-responsive" src="assets/img/slider-8.png"
+                                alt="First slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Ingredientes</h1>
+                <h5>¾ taza de agua tibia <br>
+                    ¼ cucharadita de azúcar<br>
+                    ¼ cucharadita de sal<br>
+                    ½ cucharadita de levadura<br>
+                    ½ taza de aceite de oliva<br>
+                    2¼ tazas de harina<br>
+                    Aceite para engrasar<br>
+                    350 gramos de queso mozzarella en rebanadas (u otro queso que gratine)<br>
+                    300 gramos de pepperoni o salchicha italiana<br>
+                    ½ kilogramos de tomate en cubitos<br>
+                    ⅛ taza de queso parmesano<br>
+                </h5>
+            </div>
+            <div class="col">
+                <h1>Preparación</h1>
+                <h5> Disolver el azúcar y la sal en el agua tibia, agregar la levadura, el aceite de oliva y ¼ taza de
+                    harina. <br>
+                    Mezclar hasta obtener una masa espesa y adicionar el resto de la harina hasta que la preparación
+                    quede homogénea.<br>
+                    Amasar hasta que la masa esté suave y elástica, aproximadamente después de 2-3 minutos de amasado a
+                    mano, y formar una bola. <br>
+                    Barnizar con un poco de aceite un bol, colocar la masa y rociar un poco más de aceite sobre la masa.
+                    <br>
+                    Tapar con plástico de cocina y dejar que fermente de 1 a 2 horas.<br>
+                    Precalentar el horno a 250 °C (482 °F).<br>
+                    Engrasar el fondo de un molde de pastel con el aceite y espolvorear un poco de harina. <br>
+                    Colocar la masa en el centro y presionar hacia los bordes. <br>
+                    Procurar que la masa en los laterales quede delgada.<br>
+                    Poner las rebanadas de mozzarella hasta llenar la base y agregar las rebanadas de pepperoni.<br>
+                    Colar los tomates para eliminar el exceso de agua que puedan tener los cubitos.<br>
+                    Añadir a la parte superior de la pizza hasta cubrir por completo.<br>
+                    Terminar con el queso parmesano y la mozzarella sobrante. <br>
+                    Cubrir el molde con papel aluminio.<br>
+                    Bajar la temperatura del horno a 220 °C (428 °F).<br>
+                    Hornear por 35 minutos.<br>
+                    Retirar del horno y dejar enfriar por 5 minutos.<br>
+                    Cortar y servir con ayuda de tenedor y cuchillo.<br>
+
+                </h5>
+            </div>
+        </div>
+        <hr>
+        <h1>Recetas Relacionadas</h1>
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="assets/img/recipe-card-1.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Panqueques con manjar y crema</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="assets/img/recipe-card-2.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Tiramisú</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="assets/img/recipe-card-3.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Plateada</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+        <!-- Form Section-->
+        <div id="contact" class="container-fluid">
+            <div class="typeform-widget" data-url="https://form.typeform.com/to/esyltRwb?typeform-medium=embed-snippet"
+                style="width: 100%; height: 500px;"></div>
+            <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
+        </div>
+    </div>
+    <footer>
+
+
+    </footer>
+
+
+
+    <!-- CDN Jquery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- CDN JavaScrip-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <!-- My style JS-->
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
